@@ -15,6 +15,7 @@ const lis = alunos.map(aluno=>{
             <ul style={{listStyle:"none"}}>
             {lis}
             </ul>
+            
         </div>
     )
 }

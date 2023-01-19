@@ -1,4 +1,6 @@
 import './App.css';
+
+import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import React from 'react'
 import Familia from './components/basico/Familia';
 import FamiliaMembro from './components/basico/FamiliaMembro';
@@ -8,6 +10,11 @@ import Fragmento from './components/basico/Fragramentos';
 import Aleatorio from './components/basico/aleatorio';
 import Card from './components/layout/Card';
 import ListaAlunos from './components/repeticao/ListaAlunos';
+import ParOuImpar from './components/condicional/ParOuImpar';
+import UsuarioInfo from './components/condicional/UsuarioInfo';
+import "./components/comunicacao/DiretaPai";
+import DiretaPai from './components/comunicacao/DiretaPai';
+
 
 
 
@@ -22,7 +29,23 @@ return (
 
         <div className='Cards'>
         
-        <Card titulo="Desafio repetição" >
+        <Card titulo="Comunicação direta" color="#59323C">
+        <DiretaPai></DiretaPai>
+        </Card>
+
+        <Card titulo="Renderização condicional 2">
+        <UsuarioInfo usuario={{nome:'Fernando'}}/>
+        
+        <UsuarioInfo usuario={{email: 'fe@nando.com'}}/>
+
+        </Card>
+        <Card titulo="Renderização condicional" color="#982395">
+
+        <ParOuImpar numero={21}></ParOuImpar>
+        </Card>
+
+        <Card titulo="Desafio repetição" color="#FF432E">
+        <TabelaProdutos></TabelaProdutos>
 
         </Card>
 
