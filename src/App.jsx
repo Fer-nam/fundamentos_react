@@ -14,6 +14,7 @@ import ParOuImpar from './components/condicional/ParOuImpar';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import "./components/comunicacao/DiretaPai";
 import DiretaPai from './components/comunicacao/DiretaPai';
+import IndiretaPai from './components/comunicacao/IndiretaPai.jsx';
 
 
 
@@ -28,6 +29,10 @@ return (
         <h2>Exercícios</h2>
 
         <div className='Cards'>
+
+        <Card titulo="Comunicação indireta" color="#8bad39">
+                <IndiretaPai></IndiretaPai>
+        </Card>
         
         <Card titulo="Comunicação direta" color="#59323C">
         <DiretaPai></DiretaPai>

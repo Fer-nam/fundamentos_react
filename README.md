@@ -1,3 +1,3 @@
 # Fundamentos React
 
-Repostiorio criado para subir o proguesso do meu estudo em REACT
+Repostiorio criado para subir o progresso do meu estudo em REACT
