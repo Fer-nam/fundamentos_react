@@ -15,6 +15,8 @@ import UsuarioInfo from './components/condicional/UsuarioInfo';
 import "./components/comunicacao/DiretaPai";
 import DiretaPai from './components/comunicacao/DiretaPai';
 import IndiretaPai from './components/comunicacao/IndiretaPai.jsx';
+import Input from './components/formulario/Input';
+import Contador from './components/contador/Contador';
 
 
 
@@ -29,6 +31,15 @@ return (
         <h2>Exercícios</h2>
 
         <div className='Cards'>
+
+         <Card titulo="Contador" color="#424242">
+                <Contador numeroInicial={10}></Contador>
+                
+        </Card>       
+        
+        <Card titulo ="Componente Controlado" color="#E45F56">
+        <Input></Input>
+        </Card>
 
         <Card titulo="Comunicação indireta" color="#8bad39">
                 <IndiretaPai></IndiretaPai>
