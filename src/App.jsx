@@ -17,6 +17,7 @@ import DiretaPai from './components/comunicacao/DiretaPai';
 import IndiretaPai from './components/comunicacao/IndiretaPai.jsx';
 import Input from './components/formulario/Input';
 import Contador from './components/contador/Contador';
+import Mega from './components/mega/Mega';
 
 
 
@@ -31,6 +32,11 @@ return (
         <h2>Exercícios</h2>
 
         <div className='Cards'>
+
+        <Card titulo="Mega-sena" color="#89006e">
+
+        <Mega></Mega>
+        </Card>
 
          <Card titulo="Contador" color="#424242">
                 <Contador numeroInicial={10}></Contador>
